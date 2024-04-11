@@ -1,6 +1,7 @@
 package br.ufrn.imd;
 
 public class Gerente extends Funcionario{
+    
     public enum Nivel{
         JUNIOR, PLENO, SENIOR
     }
@@ -14,7 +15,6 @@ public class Gerente extends Funcionario{
 
     public double calcularSalario(){
         double salario = super.calcularSalario();
-
         switch (nivel){
             case JUNIOR:
                 salario += 1000;

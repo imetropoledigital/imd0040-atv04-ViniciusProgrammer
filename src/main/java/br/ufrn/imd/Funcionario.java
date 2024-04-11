@@ -1,6 +1,7 @@
 package br.ufrn.imd;
 
 public class Funcionario {
+    
     int chMensal;
     double hh;
 
